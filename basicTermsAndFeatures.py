@@ -72,3 +72,110 @@
 1 + -1 #0
 
 # print("Champ " + "is a good boy " + str(5))
+
+# age = 8 
+# age += 8 # 16
+
+# Comparison Operators
+
+# a = 1
+# b = 2
+
+# a == b # False
+# a != b # True
+# a > b # False
+# a <= b # True
+
+# Boolean Operators
+
+condition1 = True
+condition2 = False
+
+not condition1 # False
+condition1 and condition2 # False
+condition1 or condition2 # True
+
+# or returns first value that is not False, otherwise it returns a last operand
+# print(0 or 1) ## 1
+# print(False or 'hey') ## 'hey'
+# print('hi' or 'hey') ## 'hi'
+# print([] or False) ## 'False'
+# print(False or []) ## '[]'
+
+# and returns first value that is False, otherwise it returns a last operand
+# print(0 and 1) ## 0
+# print(1 and 0) ## 0
+# print(False and 'hey') ## False
+# print('hi' and 'hey') ## 'hey'
+# print([] and False) ## []
+# print(False and []) ## False
+
+# Bitwise Operators
+
+# & performs binary AND
+# | performs binary OR
+# ^ performs a binary XOR operation
+# ~ performs a binary NOT operation (an invertion)
+# << shift left operation
+# >> shift right operation
+
+# is & in Operators
+
+# is - an identity operator (is used to compare 2 objects and returns True if both are the same object)
+# in - a membership operator (is a value contains in a list or another sequence)
+
+# Ternary Operator
+
+# Without the Ternary Operator
+def is_adult(age):
+	if age > 18:
+		return True
+	else:
+		return False
+
+# Using the Ternary Operator
+def is_adult2(age):
+	return True if age > 18 else False
+
+# Strings
+
+# "Ham"
+# 'Ham'
+# name = "Peter"
+# sentence = "Peter" + " is my name."
+# sentence2 = name + " is my name."
+# name += " is my name." # the same as the previous line
+# age = str(39)
+
+# A multiline string
+# print("""Peter is
+# 
+# 18
+# 		
+# years old
+# """)
+
+# String Methods
+
+# print("peter".upper()) # PETER
+# print("PETER".lower()) # peter
+# print("pETer person".title()) # Peter Person (Capitalizes all words in a sentence)
+# print("Peter".islower()) # False
+# print("PETER".isupper()) # True
+
+# isalpha() to check if a string contains only characters and is not empty
+# isalnum() to check if a string contains characters or digits and is not empty
+# isdecimal() to check if a string contains digits and is not empty
+# lower() to get a lowercase version of a string
+# islower() to check if a string is lowercase
+# upper() to get an uppercase version of a sting
+# isupper() to check if a string is uppercase
+# title() to get a capitalized version of a string
+# startswith() to check if the string starts with a specific substring
+# endswith() to check if the string ends with a specific substring
+# replace() to replace a part of a string
+# split() to split a string on a specific character separator
+# strip() to trim the whitespace from start and finish of a string
+# join() to append new letters to a string
+# find() to find the position of a substring
+
