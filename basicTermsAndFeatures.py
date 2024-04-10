@@ -179,3 +179,74 @@ def is_adult2(age):
 # join() to append new letters to a string
 # find() to find the position of a substring
 
+# name = "Peter"
+# len(arg) returns length of an argument
+# print(len(name))
+# print("er" in name) # 'Peter' contains 'er' True
+
+# Escaping Characters
+
+# string = "Pet\"er"
+# print(string) # Pet"er
+# \n moves a pointer to the next line
+# print("New\nline")
+# print("Back\\slash")
+
+# String Characters and Slicing
+
+# name = "James"
+# print(name[0]) # J
+# print(name[2]) # m
+# print("James"[5]) # an error
+# print("James"[4]) # s
+# print(name[-1]) # s
+# print(name[-2]) # e
+
+# Slicing
+# print(name[1:2]) # a, last index is not included
+# print(name[1:5]) # ames
+# print(name[:3]) # Jam, all from start to index 3
+# print(name[3:]) # es, all from index 3 to finish
+
+# Booleans
+
+# done = True
+
+# Numbers are always True except for the number 0
+# done = 0 # False
+# done = -1 # True
+
+# Strings are False only when empty
+# done = "Peter" # True
+# done = "" # False
+
+# Lists, Tuples and Sets are False only when empty
+
+# done = True
+# print(type(done) == bool) # True
+
+# type(), len() and so on are global functions
+
+# done = "Peter"
+# print(type(done) == bool) # False
+# 
+# if done:
+# 	print("yes")
+# else:
+# 	print("no")
+
+# book_1_read = True
+# book_2_read = False
+
+# any() returns True if any of that values in an iterable collection like List is True
+# read_any_book = any([book_1_read, book_2_read])
+# print(read_any_book) # True 
+
+# all() returns True if all of that values are True
+# ingredients_purchased = True
+# meal_cooked = False
+
+# ready_to_serve = all([ingredients_purchased, meal_cooked])
+# print(ready_to_serve) # False
+
+# Number Data Types
